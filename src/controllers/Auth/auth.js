@@ -11,7 +11,7 @@ class AuthController extends Authentication {
       });
 
       if (userInfo) {
-        window.location.href = `/src/index.html`;
+        window.location.href = `./index.html`;
       }
 
       return userInfo;

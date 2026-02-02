@@ -15,8 +15,6 @@ const sendBtn = document.getElementById("send-btn");
 const message = document.getElementById("message");
 
 window.addEventListener("load", () => {
-  console.log("yh");
-
   const loadAuthUser = authController.validateAuthenticatedUser();
   loader.classList.remove("hidden");
 
@@ -50,7 +48,7 @@ logout.addEventListener("click", () => {
     proceed: () => {
       localStorage.removeItem("auth");
       localStorage.removeItem("user");
-      window.location.href = `/src/login.html`;
+      window.location.href = `./login.html`;
     },
   });
 });
