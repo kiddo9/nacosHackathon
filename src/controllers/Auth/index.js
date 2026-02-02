@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
   const loadAuthUser = authController.validateAuthenticatedUser();
 
   if (loadAuthUser) {
-    window.location.href = `/src/index.html`;
+    window.location.href = `./index.html`;
     return;
   }
 });

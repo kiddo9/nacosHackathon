@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
   loader.classList.remove("hidden");
 
   if (!loadAuthUser) {
-    window.location.href = `/src/login.html`;
+    window.location.href = `./login.html`;
     return;
   }
 
