@@ -6,6 +6,7 @@ loginButton?.addEventListener("click", () => {
 });
 
 window.addEventListener("load", () => {
+  console.log("yh");
   const loadAuthUser = authController.validateAuthenticatedUser();
 
   if (loadAuthUser) {
