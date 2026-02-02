@@ -1,4 +1,4 @@
-import users from "../../../users.json" with { type: "json" };
+import users from "../../users.json" with { type: "json" };
 import popUp from "../../utils/popup.js";
 import saveToStorage from "../../utils/saveToStorage.js";
 import toastMessage from "../../utils/toast.js";
