@@ -15,6 +15,8 @@ const sendBtn = document.getElementById("send-btn");
 const message = document.getElementById("message");
 
 window.addEventListener("load", () => {
+  console.log("yh");
+
   const loadAuthUser = authController.validateAuthenticatedUser();
   loader.classList.remove("hidden");
 
