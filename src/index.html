@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp - Responsive</title>
+    <link rel="stylesheet" href="/src/css/index.css">
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+
+    <div id="loader-container" class="loader-overlay hidden">
+        <div class="spinner"></div>
+    </div>
+    <div id="toast" class=""></div>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Chats</h2>
+            <button id="addFriend" class="add-friend-btn"><span>+ Add</span></button>
+        </div>
+        <div class="friends-list" id="friends-list">
+            <!-- <div class="friend-item active">
+                <div class="avatar"></div>
+                <div class="friend-info">
+                    <h4>John Doe</h4>
+                    <p>Online</p>
+                </div>
+            </div>
+            <div class="friend-item">
+                <div class="avatar"></div>
+                <div class="friend-info">
+                    <h4>Jane Smith</h4>
+                    <p>Away</p>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="user_card">
+            <div class="image_parent">
+                <div class="image"></div>
+                <div class="details">
+                    <h4 id="name"></h4>
+                    <p id="email">yrj@gmail.com</p>
+                </div>
+            </div>
+            <button id="logout" class="logout-btn">Logout</button>
+        </div>
+    </div>
+
+    <div class="main-chat hidden" id="mainChat">
+        <header>
+            <div class="user-info">
+                <div class="avatar" style="width: 30px; height: 30px; margin-right: 10px;"></div>
+                <strong id="chat_name">John Doe</strong>
+            </div>
+
+        </header>
+
+        <div class="chat-container" id="chat-container">
+            <!-- <div id="message_received" class="message received">Responsive check! Resize your browser.</div>
+            <div id="message_sent" class="message sent">Looks good on mobile!</div> -->
+        </div>
+
+        <div class="input-area">
+            <input id="message" type="text" placeholder="Message...">
+            <button id="send-btn" class="send-btn">Send</button>
+        </div>
+
+    </div>
+
+    <div id="itemModal" class="modal-overlay hidden">
+        <div class="modal-card list-modal">
+            <div class="modal-header">
+                <h3>Select a Friend</h3>
+                <input type="text" id="itemSearch" placeholder="Search items..." autocomplete="off">
+            </div>
+
+            <div class="modal-list" id="itemList">
+                <div class="list-item">
+                    <div class="item-avatar"></div>
+                    <span>Alice Johnson</span>
+                </div>
+                <div class="list-item">
+                    <div class="item-avatar"></div>
+                    <span>Bob Smith</span>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn-secondary" id="closeListModal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup"></div>
+    <script type="module" src="./controllers/chat.js/index.js"></script>
+</body>
+
+</html>

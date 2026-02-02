@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "hashed_password_123",
+    "status": "Online",
+    "avatar_color": "#3498db"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "hashed_password_456",
+    "status": "Away",
+    "avatar_color": "#e67e22"
+  },
+  {
+    "id": 3,
+    "name": "Alex Rivera",
+    "email": "alex.rivera@chatmail.com",
+    "password": "hashed_password_789",
+    "status": "Typing...",
+    "avatar_color": "#9b59b6"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Connor",
+    "email": "s.connor@sky-net.com",
+    "password": "hashed_password_000",
+    "status": "Offline",
+    "avatar_color": "#2ecc71"
+  },
+  {
+    "id": 5,
+    "name": "Michael Scott",
+    "email": "m.scott@dunder-m.com",
+    "password": "hashed_password_111",
+    "status": "Online",
+    "avatar_color": "#1abc9c"
+  },
+  {
+    "id": 6,
+    "name": "Pam Beesly",
+    "email": "p.beesly@artmail.com",
+    "password": "hashed_password_222",
+    "status": "Last seen 5m ago",
+    "avatar_color": "#f1c40f"
+  },
+  {
+    "id": 7,
+    "name": "Bruce Wayne",
+    "email": "bruce@wayne-ent.com",
+    "password": "hashed_password_333",
+    "status": "Online",
+    "avatar_color": "#34495e"
+  },
+  {
+    "id": 8,
+    "name": "Diana Prince",
+    "email": "diana@themyscira.org",
+    "password": "hashed_password_444",
+    "status": "Offline",
+    "avatar_color": "#e74c3c"
+  },
+  {
+    "id": 9,
+    "name": "Peter Parker",
+    "email": "p.parker@bugle.com",
+    "password": "hashed_password_555",
+    "status": "Online",
+    "avatar_color": "#d35400"
+  },
+  {
+    "id": 10,
+    "name": "Wanda Maximoff",
+    "email": "wanda.m@chaos.io",
+    "password": "hashed_password_666",
+    "status": "Away",
+    "avatar_color": "#c0392b"
+  }
+]

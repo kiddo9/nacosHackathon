@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ChatApp</title>
+    <link rel="stylesheet" href="./css/login.css" />
+</head>
+
+<body>
+    <div id="loader-container" class="loader-overlay hidden">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="toast" class=""></div>
+
+    <div class="login-card">
+        <h2>Welcome Back</h2>
+        <p>Please enter your details to sign in.</p>
+
+        <div>
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <button id="loginButton" class="login-btn">Login</button>
+        </div>
+    </div>
+
+    <script type="module" src="./controllers/Auth/index.js"></script>
+</body>
+
+
+
+</html>
